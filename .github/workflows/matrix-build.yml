@@ -7,9 +7,10 @@ on:
 
 jobs:
   build:
+    # Define a matrix with 3 variants
     strategy:
       matrix:
-        node-version: [14, 16, 18]  # 3 different build variants
+        node-version: [14, 16, 18]
 
     runs-on: ubuntu-latest
 
